@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow&display=swap');
+
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	width: 1440px;
+	background-color: #e5e000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	height: 1380px;
+}
+
+.headline {
+	padding-left: 80px;
+	height: 200px;
+	/* background-color: transparent;?*/
+}
+
+.headline-name {
+	color: #fff;
+	font-size: 40px;
+	line-height: 200px;
+}
+
+.img {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/img.jpg);
+	background-size: cover;
+}
+
+.menu {
+	padding-left: 80px;
+	height: 100px;
+	
+	/* background-color: transparent;?*/
+}
+
+.links {
+	padding-right: 20px;
+	color: #fff;
+	font-size: 19px;
+	/* в макете uppercase - 22px */
+	line-height: 100px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main {
+	background-color: #fff;
+} 
+
+.main-container{
+	padding: 110px 80px;
+}
+
+.title {
+	color: #000;
+	font-size: 50px;
+}
+.text {
+	color: #000;
+	font-size: 45px;
+	padding-top: 35px;
+}
+
+.footer {
+	height: 200px;
+	width: 1440px;
+
+}
+.footer-container {
+	padding-left: 80px;
+	
+}
+
+#logo {
+	color: #fff;
+	font-size: 46px;
+font-family: 'Vast Shadow', cursive;
+	text-transform: uppercase;
+	letter-spacing: -5px;
+	text-decoration: none;
+	line-height: 200px;
+}
+
+
+
+
+
