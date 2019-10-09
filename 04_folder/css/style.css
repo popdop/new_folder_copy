@@ -17,8 +17,10 @@
 }
 
 .headline {
-	padding-left: 80px;
 	height: 200px;
+	width: 1280px;
+	padding-left: 80px;
+	
 	/* background-color: transparent;?*/
 }
 
@@ -76,10 +78,12 @@
 
 }
 .footer-container {
-	padding-left: 80px;
-	padding-top: 77px;
-	
+	height: 46px;
+	width: 1280px;
+	padding: 77px 80px;
 }
+
+
 
 
 
