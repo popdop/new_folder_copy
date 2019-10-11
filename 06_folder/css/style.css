@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	width: 1440px;
+	font-family: Arial, sans-serif
+}
+.header {
+	height: 1090px;
+	position: relative;
+}
+.header-top {
+	height: 140px;
+	width: 1440px;
+	background-color: #fff;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+
+}
+
+.left-box, .right-box {
+	padding: 0 50px;
+
+}
+
+
+.logo {
+	color: #e50043;
+	font-size: 50px;
+	line-height: 140px;
+}
+
+.list {
+	display: flex;
+	list-style: none;
+
+}
+
+.list li {
+	padding-left: 25px;
+	font-size: 50px;
+	line-height: 140px;
+	
+}
+
+.list li a {
+	color: #e50043;
+	font-size: 50px;
+	line-height: 140px;
+	text-decoration: none;
+}
+
+.header-bottom {
+	position: absolute;
+	top: 140px;
+}
+
+.header-img {
+	height: 950px;
+	width: 1440px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: cover;
+
+}
+.header-bottom-headline {
+	height: 100px;
+	width: 1000px;
+
+}
+
+.header-bottom-title {
+	color: #e50043;
+	font-size: 100px;
+	text-align: center;
+	line-height: 100px;
+	
+
+}
+
+.main {
+	height: 2135px;
+	position: relative;
+}
+
+.main-top {
+	height: 580px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.main-top-box {
+	height: 232px;
+	width: 992px;
+	border: 3px solid #f8bfc7;
+	border-radius: 20px;
+	padding: 21px;
+}
+
+.main-top-title {	
+	font-size: 25px;
+	line-height: 29px;;
+	letter-spacing: 0.05em;
+}
+
+.main-top-text {
+	font-size: 25px;
+	line-height: 29px;
+	padding-top: 29px;
+	letter-spacing: 0.05em;
+}
+
+.main-center {
+	height: 975px;
+}
+
+.main-center-box {
+	margin: 0 200px;
+	margin-bottom: 6px;
+	display: flex;
+	justify-content: space-between;
+
+	 
+}
+
+.bottle-box {
+	height: 969px;
+}
+
+.bottle {
+	height: 863px;
+	padding-bottom: 48px;
+}
+
+.main-center-text {
+	font-size: 25px;
+	text-align: center;
+	line-height: 29px 
+}
+
+.main-bottom {
+	height: 580px;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-bottom-box {
+	height: 280px;
+	width: 1040px;
+	border: 3px solid #f8bfc7;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 27px;
+}
+
+
+.glass-bottle {
+	float: left;
+}
+
+.main-bottom-title {	
+	font-size: 25px;
+	line-height: 29px;;
+	letter-spacing: 0.05em;
+}
+
+.main-bottom-text {
+	font-size: 25px;
+	line-height: 29px;
+	padding-top: 25px;
+	letter-spacing: 0.05em;
+}
+
+.glass-bottle {
+	padding-left: 50px;
+	padding-right: 77px;
+}
+
+.footer {
+	height: 140px;
+	background-color: #f8bfc7;
+}
+
+.footer-box {
+	height: 40px;
+	width: 1340px;
+	padding: 50px;
+}
+
+.left-text {
+	color: #fff;
+	font-size: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.right-text {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	line-height: 40px;
+	float: right;
+}
+
+
