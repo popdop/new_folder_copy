@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.header {
+	height: 100%;
+	width: 100%;
+}
+
+.header-box{
+	height: 160px;
+	width: 100%;
+	background-color: #feb700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-title {
+	width: 705px;
+	height: 57px;
+	color: #000;
+	font-size: 50px;
+	text-align: center;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+}
+
+.main-box {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	height: 100%;
+	width: 90%;
+	margin: 5%;	
+}
+
+.container {
+	width: calc((100% - 100px)/3);
+	min-height: 400px;
+	background-color: #fff;
+	border: 1px solid #000;
+	box-sizing: border-box;
+}
+
+.container-one-img {
+	width: 100%;
+	height: 26vh;
+	background-image: url(../img/Samosa_Sweet_Potatoes_Wraps_with_Tofu_Scramble.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.container-two-img {
+	width: 100%;
+	height: 26vh;
+	background-image: url(../img/Frozen_Yogurt_Breakfast_Bars.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.container-three-img {
+	width: 100%;
+	height: 26vh;
+	background-image: url(../img/Healthiest_Ever_Granola.png);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.container-text {
+	padding: 33px 30px;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.text {
+	padding-top: 25px;
+}
+
+.list {
+	padding-top: 25px;
+	list-style: none;
+}
+
+.footer{
+	width: 100%;
+	height: 160px;
+	background-color: #feb700;
+}
+
+.footer-box {
+	height: 60px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-left p {
+	color: #000;
+	font-size: 50px;
+	line-height: 60px;
+}
+
+.footer-right a {
+	color: #000;
+	font-size: 50px;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+
